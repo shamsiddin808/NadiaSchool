@@ -1038,7 +1038,7 @@ button.swiper-pagination-bullet {
 
 .home-header__separator {
     position: absolute;
-    bottom: -70px;
+    bottom: -84px;
     transform: translateY(.625rem);
     width: 100%
 }
