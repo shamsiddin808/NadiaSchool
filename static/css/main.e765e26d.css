@@ -780,8 +780,12 @@ button.swiper-pagination-bullet {
 
 @media screen and (max-width: 760px) {
     .home-header__topbar {
-        padding: 0 .625rem
+    flex-direction: column;
+        padding: 0 .625rem;
+        gap: 50px;
     }
+    .home-header__topbar__button{
+        margin-top: 49px}
 }
 
 .home-header__topbar img {
@@ -793,6 +797,7 @@ button.swiper-pagination-bullet {
     display: flex;
     flex-direction: column
 }
+
 
 .home-header__topbar__date, .home-header__topbar__start {
     font-size: 1.25rem;
