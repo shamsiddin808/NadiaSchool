@@ -815,10 +815,10 @@ button.swiper-pagination-bullet {
 }
 
 .home-header__video {
+    height: 450px ;
     border-radius: 1rem;
-    height: 12.5rem;
     margin-top: 1.25rem;
-    width: 21.875rem
+    width: 1000px
 }
 
 @media screen and (max-width: 560px) {
@@ -834,7 +834,7 @@ button.swiper-pagination-bullet {
     left: 7.5rem;
     position: absolute;
     top: 9.375rem;
-    margin-bottom: -110px
+    margin-bottom: -40px
 }
 
 @media screen and (max-width: 560px) {
@@ -849,7 +849,11 @@ button.swiper-pagination-bullet {
         bottom: 5rem;
         gap: initial;
         left: .625rem;
-        top: auto
+        top: 500px
+    }
+
+    .home-header__video {
+        width: 400px
     }
 }
 
@@ -899,7 +903,6 @@ button.swiper-pagination-bullet {
     font-size: 1.125rem;
     font-weight: 700;
     line-height: 150%;
-    opacity: .58;
     width: 41.25rem;
     color: #e4097f
 }
@@ -1027,8 +1030,8 @@ button.swiper-pagination-bullet {
 }
 
 .home-header__separator {
-    bottom: 0;
     position: absolute;
+    bottom: -70px;
     transform: translateY(.625rem);
     width: 100%
 }
@@ -1036,7 +1039,7 @@ button.swiper-pagination-bullet {
 .home-header__separator svg {
     aspect-ratio: 1440/100;
     height: auto;
-    width: 100%
+    width: 100%;
 }
 
 .home-header__gradient {
@@ -1060,6 +1063,9 @@ button.swiper-pagination-bullet {
     .home-info {
         padding: .625rem .625rem 3.75rem
     }
+    .home-header__separator{
+        bottom: -160px;
+    }
 }
 
 .home-info__content {
@@ -1073,6 +1079,15 @@ button.swiper-pagination-bullet {
 }
 
 @media screen and (max-width: 760px) {
+    .home-info{
+        margin-top: 10px;
+    }
+    .home-header__separator {
+    position: absolute;
+    bottom: -146px;
+    transform: translateY(.625rem);
+    width: 100%
+}
     .home-info__content {
         display: flex;
         flex-direction: column
@@ -1346,6 +1361,7 @@ button.swiper-pagination-bullet {
     .home-footer__content {
         padding: 2rem .625rem
     }
+
 }
 
 @media screen and (max-width: 760px) {

@@ -7923,10 +7923,9 @@ function o() {
                     (0, l.jsx)("button", {
                         className: "home-header__topbar__button",
                         onClick: () => window.location.href = "https://t.me/nadiaa_kursbot?start=start",
-                        style: { padding: "10px 20px", backgroundColor: "#e4097f", color: "white", border: "none", borderRadius: "5px", cursor: "pointer", fontSize: "16px", fontWeight: "bold", position: "absolute", left: "50%", transform: "translateX(-50%)" },
+                        style: { padding: "9px 20px", backgroundColor: "#e4097f", color: "white", border: "none", borderRadius: "5px", cursor: "pointer", fontSize: "20px", fontWeight: "bold", position: "absolute", left: "50%", transform: "translateX(260%)" },
                         children: "Ro'yxatdan o'tish"
                     }),
-                    (0, l.jsx)("div", { className: "home-header__topbar__start", children: "START" })
                 ]
             }),
             (0, l.jsxs)("div", {
@@ -7963,57 +7962,61 @@ function o() {
                         className: "home-header__content__desc",
                         children: "Haqiqiy baxt topish uchun uzoq vaqt yo‘qotishingiz mumkin. Lekin haqiqiy baxt kaliti qo‘lingizda ekanligini tushunganingizda hayotingiz 180 darajaga o‘zgaradi"
                     }),
-                    (0, l.jsx)("iframe", {
-                        width: "300",
-                        height: "200",
-                        src: "https://www.youtube.com/embed/TrsF7KAOwFA",
-                        title: "YouTube video player",
-                        frameBorder: "0",
-                        allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-                        allowFullScreen: !0,
-                        className: "home-header__video"
-                    })
+
                 ]
             }),
-            (0, l.jsx)("div", { className: "home-header__separator", children: (0, l.jsx)(i, {}) })
+
+
+
         ]
     })
 }
 
 
-    function s() {
-        return (0, l.jsxs)("div", {
-            className: "home-info",
-            children: [(0, l.jsx)("div", {
+function s() {
+    return (0, l.jsxs)("div", {
+        className: "home-info",
+        children: [
+            (0, l.jsx)("div", { className: "home-header__separator", children: (0, l.jsx)(i, {}) }),
+
+            (0, l.jsx)("iframe", {
+                src: "https://www.youtube.com/embed/TrsF7KAOwFA",
+                title: "YouTube video player",
+                frameBorder: "0",
+                allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                allowFullScreen: !0,
+                className: "home-header__video"
+            }),
+            (0, l.jsx)("div", {
                 className: "home-title",
                 children: "Bu kurs siz uchun agarda:"
-            }), (0, l.jsx)("div", {
+            }),
+            (0, l.jsx)("div", {
                 className: "home-info__content",
-                children: [{
-                    number: "01",
-                    text: "<red>O'ZINGIZGA</red> bo'lgan <red>ISHONCHNI</red> yo'qotib qo'ygan bo'lsangiz va hech narsaga qiziqish va xohish bo'lmasa"
-                }, {
-                    number: "02",
-                    text: "<red>TURMUSH QURISHDA</red> <br/> qo'rquv va yaqinlik qo'rquvlari sizni qiynasa"
-                }, {
-                    number: "03",
-                    text: "<red>TEZ-TEZ TUSHKUNLIKKA TUSHIB</red> qolasiz va hayotingizga ko'ngilsiz hodisalarni ko'payishi"
-                }, {number: "04", text: "<red>JINSIY HAYOTINGIZNI</red> sifatini o'zgartirmoqchisiz"}, {
-                    number: "05",
-                    text: "<red>ORGAZM</red> nimaligini bilmaysiz va ko'zlari yonib turadiganz"
-                }].map(((e, t) => (0, l.jsxs)("div", {
+                children: [
+                    { number: "01", text: "<red>O'ZINGIZGA</red> bo'lgan <red>ISHONCHNI</red> yo'qotib qo'ygan bo'lsangiz va hech narsaga qiziqish va xohish bo'lmasa" },
+                    { number: "02", text: "<red>TURMUSH QURISHDA</red> <br/> qo'rquv va yaqinlik qo'rquvlari sizni qiynasa" },
+                    { number: "03", text: "<red>TEZ-TEZ TUSHKUNLIKKA TUSHIB</red> qolasiz va hayotingizga ko'ngilsiz hodisalarni ko'payishi" },
+                    { number: "04", text: "<red>JINSIY HAYOTINGIZNI</red> sifatini o'zgartirmoqchisiz" },
+                    { number: "05", text: "<red>ORGAZM</red> nimaligini bilmaysiz va ko'zlari yonib turadiganz" }
+                ].map(((e, t) => (0, l.jsxs)("div", {
                     className: "home-info__item",
-                    children: [(0, l.jsx)("div", {
-                        className: "home-info__item__number",
-                        children: e.number
-                    }), (0, l.jsx)("div", {
-                        className: "home-info__item__text",
-                        dangerouslySetInnerHTML: {__html: e.text}
-                    })]
+                    children: [
+                        (0, l.jsx)("div", {
+                            className: "home-info__item__number",
+                            children: e.number
+                        }),
+                        (0, l.jsx)("div", {
+                            className: "home-info__item__text",
+                            dangerouslySetInnerHTML: { __html: e.text }
+                        })
+                    ]
                 }, t)))
-            })]
-        })
-    }
+            })
+        ]
+    })
+}
+
 
     function u() {
         return (0, l.jsxs)("div", {
@@ -8025,9 +8028,19 @@ function o() {
                     src: "/images/home/avatar_2.png",
                     alt: ""
                 }), (0, l.jsxs)("div", {
-                    className: "home-questions__left__text",
-                    children: ["Baxtli bo\u2019lish sirlari", (0, l.jsx)("br", {}), "va xotirjamlik"]
-                })]
+    className: "home-questions__left__text",
+    children: [
+        (0, l.jsx)("a", {
+            href: "https://t.me/nadiaa_kursbot?start=start",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            children: "Baxtli bo‘lish sirlari va xotirjamlik"
+        }),
+        (0, l.jsx)("br", {}),
+        ""
+    ]
+})
+]
             }), (0, l.jsxs)("div", {
                 className: "home-questions__right",
                 children: [(0, l.jsx)("div", {
@@ -8058,7 +8071,7 @@ function o() {
                     children: "SHOSHILIB QOLING!"
                 }), (0, l.jsx)("div", {
                     className: "home-deadline__content__description",
-                    children: "To'liq maʼlumot NadiaSchool adminiga yozing"
+                    children: "Ro'yxatdan o'tish uchun oxirgi imkoniyat – hoziroq harakat qiling!"
                 })]
             })]
         })
