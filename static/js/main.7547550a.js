@@ -7909,40 +7909,40 @@
             })]
         })
     }
-
 function o() {
     return (0, l.jsxs)("div", {
         className: "home-header",
         children: [
             (0, l.jsx)("div", { className: "home-header__gradient" }),
+
             (0, l.jsxs)("div", {
                 className: "home-header__topbar",
-                style: { display: "flex", justifyContent: "space-between", alignItems: "center", padding: "10px" },
                 children: [
-                    (0, l.jsx)("img", { src: "/images/home/logo.png", alt: "" }),
+                    (0, l.jsx)("img", { src: "/images/home/logo.png", alt: "Logo" }),
                     (0, l.jsx)("button", {
                         className: "home-header__topbar__button",
                         onClick: () => window.location.href = "https://t.me/nadiaa_kursbot?start=start",
-                        style: { padding: "9px 20px", backgroundColor: "#e4097f", color: "white", border: "none", borderRadius: "5px", cursor: "pointer", fontSize: "20px", fontWeight: "bold", position: "absolute", left: "50%", transform: "translateX(260%)" },
                         children: "Ro'yxatdan o'tish"
                     }),
                 ]
             }),
+
             (0, l.jsxs)("div", {
                 className: "home-header__elements",
                 children: [
-                    (0, l.jsx)("img", { className: "home-header__elements__top", src: "/images/home/top-element.png", alt: "" }),
-                    (0, l.jsx)("img", { className: "home-header__elements__bottom", src: "/images/home/bottom-element.png", alt: "" })
+                    (0, l.jsx)("img", { className: "home-header__elements__top", src: "/images/home/top-element.png", alt: "Top Element" }),
+                    (0, l.jsx)("img", { className: "home-header__elements__bottom", src: "/images/home/bottom-element.png", alt: "Bottom Element" })
                 ]
             }),
+
             (0, l.jsxs)("div", {
                 className: "home-header__avatar",
                 children: [
-                    (0, l.jsx)("img", { className: "home-header__avatar__bg", src: "/images/home/avatar-bg.png", alt: "" }),
+                    (0, l.jsx)("img", { className: "home-header__avatar__bg", src: "/images/home/avatar-bg.png", alt: "Background" }),
                     (0, l.jsxs)("div", {
                         className: "home-header__avatar__itself",
                         children: [
-                            (0, l.jsx)("img", { src: "/images/home/avatar.png", alt: "" }),
+                            (0, l.jsx)("img", { src: "/images/home/avatar.png", alt: "Avatar" }),
                             (0, l.jsxs)("div", {
                                 className: "home-header__talk",
                                 children: ["Bu yo‘lda sizga bardavom ", (0, l.jsx)("br", {}), "bo‘lishda yordam beraman!"]
@@ -7951,6 +7951,7 @@ function o() {
                     })
                 ]
             }),
+
             (0, l.jsxs)("div", {
                 className: "home-header__content",
                 children: [
@@ -7962,15 +7963,13 @@ function o() {
                         className: "home-header__content__desc",
                         children: "Haqiqiy baxt topish uchun uzoq vaqt yo‘qotishingiz mumkin. Lekin haqiqiy baxt kaliti qo‘lingizda ekanligini tushunganingizda hayotingiz 180 darajaga o‘zgaradi"
                     }),
-
                 ]
             }),
-
-
 
         ]
     })
 }
+
 
 
 function s() {

@@ -775,18 +775,41 @@ button.swiper-pagination-bullet {
     padding: 0 7.5rem;
     position: absolute;
     top: 0;
-    width: 100%
+    width: 100%;
 }
 
-@media screen and (max-width: 760px) {
-    .home-header__topbar {
-    flex-direction: column;
-        padding: 0 .625rem;
-        gap: 50px;
-    }
-    .home-header__topbar__button{
-        margin-top: 49px}
+.home-header__topbar__button {
+    padding: 9px 20px;
+    background-color: #e4097f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
 }
+
+@media (max-width: 760px) {
+    .home-header__topbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .home-header__topbar__button {
+        position: relative;
+        margin-top: 15px;
+        transform: none;
+        left: auto;
+        margin-left: 0;
+    }
+
+    .home-header__avatar__itself {
+        top: 9.375rem
+    }
+
+
+}
+
 
 .home-header__topbar img {
     aspect-ratio: 285/42.73;
