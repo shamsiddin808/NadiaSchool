@@ -857,6 +857,13 @@ button.swiper-pagination-bullet {
     }
 }
 
+@media screen and (max-width: 1420px) {
+    .home-header__separator{
+        position: absolute;
+        top: 950px;
+    }
+}
+
 .home-header__content__category {
     color: #0a0a0a;
     font-family: kugile !important;
@@ -1084,7 +1091,7 @@ button.swiper-pagination-bullet {
     }
     .home-header__separator {
     position: absolute;
-    bottom: -146px;
+    top: 970px;
     transform: translateY(.625rem);
     width: 100%
 }
