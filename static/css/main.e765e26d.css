@@ -883,7 +883,15 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 1420px) {
     .home-header__separator{
         position: absolute;
-        top: 950px;
+        top: 970px;
+    }
+}
+
+
+@media screen and (max-width: 1550px) {
+    .home-header__separator{
+        position: absolute;
+        top: 900px;
     }
 }
 
@@ -1037,6 +1045,12 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 1250px) {
     .home-header__avatar__itself {
         right: -9.375rem
+    }
+
+
+    .home-header__separator{
+        position: absolute;
+        top: 940px;
     }
 }
 
